@@ -59,4 +59,16 @@ public class MainActivity extends AppCompatActivity {
         ds.add(getResources().getDrawable(R.drawable.test3));
         return ds;
     }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        banner.startBanner();
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        banner.stopBanner();
+    }
 }

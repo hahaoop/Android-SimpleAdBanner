@@ -12,5 +12,4 @@
         banner:intervalTime="2000"
         banner:isLoop="true"
         android:layout_height="150dp"/>
-    />
 </RelativeLayout>
